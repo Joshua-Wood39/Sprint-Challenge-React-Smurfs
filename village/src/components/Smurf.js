@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const Smurf = props => {
   return (
     <div className="Smurf">
-      <Link to={`/${props.id}`}>
+      <Link to={`/smurf/${props.id}`}>
         <h3>{props.name}</h3>
         <strong>{props.height} tall</strong>
         <p>{props.age} smurf years old</p>

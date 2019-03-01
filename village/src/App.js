@@ -33,7 +33,7 @@ deleteSmurf = () => {
 }
 
 updateSmurf = () => {
-  
+
 }
 
   // add any needed code to ensure that the smurfs collection exists on state and it has data coming from the server
@@ -57,7 +57,7 @@ updateSmurf = () => {
           />
         )}
         />
-        <Route path="/:id" render={props => (
+        <Route path="/smurf/:id" render={props => (
           <SmurfUpDel
             {...props}
             smurfs={this.state.smurfs}
